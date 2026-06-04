@@ -1,0 +1,34 @@
+{
+  "id": "0b0421ef-6898-467c-9da5-8c9b3e98c481",
+  "version": "0.1.0",
+  "platform": "all",
+  "arch": "all",
+  "name": "MP3 Thumbnail Extension",
+  "description": "Extract embedded MP3 artwork and use it as thumbnails.",
+  "logo": "/logo.png",
+  "keywords": [
+    "mp3",
+    "cover",
+    "thumbnail",
+    "album art"
+  ],
+  "devTools": false,
+  "main": {
+    "url": "index.html",
+    "width": 500,
+    "height": 320,
+    "minWidth": 480,
+    "minHeight": 320,
+    "resizable": true,
+    "multiple": false
+  },
+  "preview": {
+    "mp3": {
+      "thumbnail": {
+        "path": "thumbnail/mp3.js",
+        "size": 600,
+        "allowZoom": false
+      }
+    }
+  }
+}
