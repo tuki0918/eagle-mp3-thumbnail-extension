@@ -1,5 +1,7 @@
 # Eagle | MP3 Thumbnail Extension
 
+An Eagle Plugin that uses embedded MP3 artwork as thumbnails and backfills metadata such as duration and BPM.
+
 ![](docs/preview.png)
 
 Manual backfill:
